@@ -45,6 +45,8 @@ t1 = time.time()
 typing = t1-t0
 typing = round(typing)
 end = datetime.datetime.strptime(later,'%H:%M:%S')
+if end<now:
+    end+=datetime.timedelta(days=1)
 
 difference = end - now
 
