@@ -21,7 +21,7 @@ def countdown(total_seconds):
             print("The timer is at zero!")
             pygame.init()
             pygame.mixer.init()
-            sound = pygame.mixer.Sound('/Users/medhabhutanni/Desktop/Python/sounds/wsg.mp3')
+            sound = pygame.mixer.Sound('Your sound file path here..')
             sound.set_volume(0.75)
             sound.play()
             
