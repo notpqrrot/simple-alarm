@@ -1,7 +1,6 @@
 # Simple timer by notpqrrot/lapis
-# Made to account for typing speed and time spent typing out the date so there is no inacurracy in timing
-# Elevator Music by Kevin Mclaeod (not sure how to spell his name...)
-# If you dont have playsound installed, simply use os.system command, which is why os has already been imported
+
+# If you dont have pygame installed, simply use os.system command, which is why os has already been imported
 #Inside the parantheses for pygame.mixer.Sound, simply add the path to the sound that you want to play!
 import os
 import time
